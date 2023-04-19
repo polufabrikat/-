@@ -1,0 +1,146 @@
+#block1 {
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+    height: 520px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+}
+
+#block2 {
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+    height: 520px;
+    background-color: red;
+    display: inline-block;
+}
+
+#block3 {
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+    height: 520px;
+    background-color: black;
+    display: inline-block;
+}
+
+#block4 {
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+    height: 520px;
+    background-color: red;
+    display: inline-block;
+}
+
+p {
+    display: flex;
+}
+
+.image {
+	position: relative;
+	width: min-content; 
+    height: min-content;
+}
+
+h2 {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 0%;
+}
+
+h2 span {
+	color: rgb(255, 255, 255);
+    font-size: 20px;
+	letter-spacing: -1px;
+}
+
+@font-face {
+    font-family: "sabril";
+    src: url(../fonts/d9464-arkhip_font.ttf);
+}
+
+p, h2 {
+    font-family: "sabril";
+}
+
+#p1 {
+    color: red;
+}
+
+#p2 {
+    color: black;
+}
+
+#p3 {
+    color: red;
+}
+
+#p4 {
+    color: black;
+}
+
+.button {
+    position: relative;
+    right: 10px;
+    bottom: 70px;
+    border: 2px solid;
+    border-color: black;
+    font-size: 20px;
+    margin: 90px;
+}
+
+#button1 {
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+}
+
+#button2 {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+#button3 {
+    color: red;
+    text-decoration: none;
+    border: 2px solid red;
+}
+
+#button4 {
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+#button1:hover {
+    color: rgb(153, 0, 255);
+    text-decoration: none;
+    border: 2px solid rgb(153, 0, 255);
+    background-color: rgb(0, 252, 210);
+}
+
+#button2:hover {
+    color: rgb(153, 0, 255);
+    text-decoration: none;
+    border: 2px solid rgb(153, 0, 255);
+    background-color: rgb(0, 252, 210);
+}
+
+#button3:hover {
+    color: rgb(153, 0, 255);
+    text-decoration: none;
+    border: 2px solid rgb(153, 0, 255);
+    background-color: rgb(0, 252, 210);
+}
+
+#button4:hover {
+    color: rgb(153, 0, 255);
+    text-decoration: none;
+    border: 2px solid rgb(153, 0, 255);
+    background-color: rgb(0, 252, 210);
+}
+
